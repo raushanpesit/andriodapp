@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img" >
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Name"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/etSQLNam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+	<TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placement detail"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:id="@+id/etSQLDetai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last date to apply"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:id="@+id/etSQLDat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date" 
+     />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:id="@+id/etSQLLocatio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
+     <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sem"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:id="@+id/etSQLYea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" 
+     />
+ <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CGPA"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:id="@+id/etSQLYea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" 
+     />
+
+    <Button
+        android:id="@+id/bSQLUpdat"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/dblue"
+        android:text="Update Placement Database"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/bSQLopenVie"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        
+        android:text="view"
+         />
+
+</LinearLayout>

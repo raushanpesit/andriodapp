@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pes.training"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+   <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+   
+    
+
+   <application
+        android:allowBackup="true"
+        android:icon="@drawable/tra"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pes.training.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="com.pes.training.SQLView"
+            android:label="Details" >
+        </activity>
+         
+         <activity
+            android:name="com.pes.training.SQLexample"
+            android:label="Details" >
+        </activity>
+         <activity
+            android:name="com.pes.training.training"
+            android:label="Details" >
+        </activity>
+         <activity
+            android:name="com.pes.training.Trainview"
+            android:label="Details" >
+        </activity>
+        <activity
+            android:name="com.pes.training.Trainview1"
+            android:label="Details" >
+        </activity>
+        
+        
+        
+        <activity
+            android:name="com.pes.training.Place"
+            android:label="placement Page" >
+        </activity>
+         <activity
+            android:name="com.pes.training.Placeview"
+            android:label="placement Page" >
+        </activity>
+        <activity
+            android:name="com.pes.training.Placementview1"
+            android:label="placement Page" >
+        </activity>
+         <activity
+            android:name="com.pes.training.Placement"
+            android:label="placement Page" >
+        </activity>
+         <activity
+            android:name="com.pes.training.Placementview"
+            android:label="placement Page" >
+        </activity>
+   <activity
+            android:name="com.pes.training.Signin"
+            android:label="Admin Page" >
+        </activity>
+        <activity
+            android:name="com.pes.training.Sign"
+            android:label="Admin Page" >
+        </activity>
+        <activity
+            android:name="com.pes.training.Login"
+            android:label="Admin Page" >
+        </activity>
+        <activity
+            android:name="com.pes.training.Admin"
+            android:label="Admin page" >
+        </activity>
+        
+         <activity
+            android:name="com.pes.training.Home"
+            android:label="@string/app_name" >
+        </activity>
+       
+        
+        
+        <activity
+            android:name="com.pes.training.FeedBack_Home"
+            android:label="FeedBack" >
+        </activity>
+        
+        
+          <activity
+            android:name="com.pes.training.FeedBack_send"
+            android:label="Thanks" >
+        </activity>
+         
+        
+        
+        
+    </application>
+
+</manifest>

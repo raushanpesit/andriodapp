@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/img">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please specify your sem in below box and search."
+        android:textColor="@color/blue"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ <EditText
+        android:id="@+id/etSQLrowInf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bgetInf"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        android:background="@color/dblue"
+        android:text="Search"
+        android:textColor="@color/white" />
+
+<TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please specify SEM and CGPA then search."
+         android:textColor="@color/orange"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etSQLrowInfo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etSQLrowInfo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/bgetInfo2"
+        android:layout_width="162dp"
+        android:layout_height="40dp"
+        android:background="@color/dblue"
+        android:text="Search"
+        android:textColor="@color/white" />
+
+</LinearLayout>
